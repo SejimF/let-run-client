@@ -1,0 +1,14 @@
+.general-add {
+    display: flex;
+    flex-direction: column;
+}
+
+mat-form-field {
+    margin-top: 3rem;
+}
+
+button {
+    &.arrow_box {
+        font-size: 1rem;
+    }
+}
