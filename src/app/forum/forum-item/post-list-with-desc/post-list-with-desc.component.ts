@@ -21,7 +21,6 @@ export class PostListWithDescComponent implements OnInit {
   forOwnersOnly;
   userRole;
 
-
       //total items in collection
       totalPosts: number;
 

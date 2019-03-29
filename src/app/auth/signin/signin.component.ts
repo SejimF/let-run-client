@@ -19,6 +19,11 @@ export class SigninComponent implements OnInit {
   siteKey = environment.googleReCapcha;
   hide = true;
 
+  compact ="compact"
+  en ="en"
+  light ="light"
+  image ="image"
+
   constructor(public authService: AuthService,
       private snackBarService: SnackBarService,
       private dialogRef: MatDialogRef<SigninComponent>) { }

@@ -17,10 +17,12 @@ export class ContactUsComponent implements OnInit, OnDestroy {
   sendEmailForm: FormGroup;
   // siteKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
   siteKey = environment.googleReCapcha;
-  type = "image";
-  hl = "en";
-  theme = "light";
-  size = "compact";
+
+  compact ="compact"
+  en ="en"
+  light ="light"
+  image ="image"
+
   idNum;
 
   constructor(
